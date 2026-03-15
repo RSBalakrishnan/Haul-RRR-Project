@@ -16,9 +16,9 @@ const Footer = () => {
             <h4 className="font-display font-bold text-lg text-foreground mb-6">Services</h4>
             <ul className="space-y-4">
               <li><a href="/debris-removal-chennai" className="text-muted-foreground hover:text-primary transition-colors">Debris Removal Chennai</a></li>
-              <li><a href="/#services" className="text-muted-foreground hover:text-primary transition-colors">Demolition Waste Removal</a></li>
-              <li><a href="/#services" className="text-muted-foreground hover:text-primary transition-colors">Construction Waste Transport</a></li>
-              <li><a href="/#services" className="text-muted-foreground hover:text-primary transition-colors">M-Sand & P-Sand Delivery</a></li>
+              <li><a href="/demolition-waste-removal-chennai" className="text-muted-foreground hover:text-primary transition-colors">Demolition Waste Removal</a></li>
+              <li><a href="/tata-407-transport-chennai" className="text-muted-foreground hover:text-primary transition-colors">Tata 407 Transport</a></li>
+              <li><a href="/m-sand-p-sand-transport-chennai" className="text-muted-foreground hover:text-primary transition-colors">M-Sand & P-Sand Delivery</a></li>
             </ul>
           </div>
 

@@ -5,6 +5,9 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import DebrisRemoval from "./pages/DebrisRemoval.tsx";
+import DemolitionWaste from "./pages/DemolitionWaste.tsx";
+import Tata407Transport from "./pages/Tata407Transport.tsx";
+import SandTransport from "./pages/SandTransport.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -18,6 +21,9 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/debris-removal-chennai" element={<DebrisRemoval />} />
+          <Route path="/demolition-waste-removal-chennai" element={<DemolitionWaste />} />
+          <Route path="/tata-407-transport-chennai" element={<Tata407Transport />} />
+          <Route path="/m-sand-p-sand-transport-chennai" element={<SandTransport />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -47,6 +47,9 @@ const FleetSection = () => {
                 <img
                   src={truck.image}
                   alt={truck.name}
+                  width={400}
+                  height={300}
+                  loading="lazy"
                   className="w-full h-full object-contain scale-110 group-hover:scale-125 transition-transform duration-700"
                 />
               </div>
