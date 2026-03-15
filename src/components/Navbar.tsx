@@ -33,7 +33,11 @@ const Navbar = () => {
         <a href="/" className="flex items-center gap-3 md:gap-6 group">
           <img
             src={logo}
-            alt="RRR Transport Logo"
+            alt="RRR Transport Chennai - Official Logo"
+            width={40}
+            height={40}
+            loading="eager"
+            decoding="async"
             className="w-8 h-8 md:w-10 md:h-10 object-contain transition-all duration-300 group-hover:scale-110 group-hover:[filter:drop-shadow(0_0_6px_rgba(208,255,67,0.9))_drop-shadow(0_0_16px_rgba(208,255,67,0.6))]"
           />
           <div className="flex items-center gap-2 md:gap-4">

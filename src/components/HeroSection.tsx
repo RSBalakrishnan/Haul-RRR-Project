@@ -98,10 +98,11 @@ const HeroSection = () => {
             >
               <img
                 src={heroImage}
-                alt="Tata 407 4x4 Truck Chennai Debris Removal"
+                alt="Tata 407 debris removal truck in Chennai - RRR Transport"
                 width={800}
                 height={600}
                 loading="eager"
+                decoding="async"
                 className="w-full h-auto drop-shadow-[0_20px_60px_rgba(208,255,67,0.3)] object-contain"
               />
             </motion.div>
