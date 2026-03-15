@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import InternalLinks from "@/components/InternalLinks";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, CheckCircle, MapPin, Clock } from "lucide-react";
@@ -107,6 +108,16 @@ const MedavakkamPage = () => {
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Debris Removal Chennai", href: "/debris-removal-chennai" },
+          { label: "Demolition Waste Removal Chennai", href: "/demolition-waste-removal-chennai" }
+        ]}
+        locations={[
+          { label: "Tambaram Debris Removal", href: "/debris-removal-tambaram" },
+          { label: "Velachery Debris Removal", href: "/debris-removal-velachery" }
+        ]}
+      />
       <Footer />
     </div>
   );

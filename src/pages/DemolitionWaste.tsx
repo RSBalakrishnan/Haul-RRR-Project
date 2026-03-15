@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import InternalLinks from "@/components/InternalLinks";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, CheckCircle2, ChevronRight, HardHat } from "lucide-react";
@@ -100,6 +101,16 @@ const DemolitionWastePage = () => {
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Debris Removal Chennai", href: "/debris-removal-chennai" },
+          { label: "Construction Debris Removal Chennai", href: "/construction-debris-removal-chennai" }
+        ]}
+        locations={[
+          { label: "Thoraipakkam Debris Removal", href: "/debris-removal-thoraipakkam" },
+          { label: "Sholinganallur Debris Removal", href: "/debris-removal-sholinganallur" }
+        ]}
+      />
       <Footer />
     </div>
   );

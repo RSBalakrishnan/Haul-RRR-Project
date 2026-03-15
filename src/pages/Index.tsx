@@ -7,6 +7,7 @@ import ProcessSection from "@/components/ProcessSection";
 import CoverageSection from "@/components/CoverageSection";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
+import InternalLinks from "@/components/InternalLinks";
 import FloatingButtons from "@/components/FloatingButtons";
 import Footer from "@/components/Footer";
 
@@ -75,6 +76,16 @@ const Index = () => {
       <CoverageSection />
       <FAQSection />
       <ContactSection />
+      <InternalLinks 
+        services={[
+          { label: "Debris Removal Chennai", href: "/debris-removal-chennai" },
+          { label: "Demolition Waste Removal Chennai", href: "/demolition-waste-removal-chennai" }
+        ]}
+        locations={[
+          { label: "Velachery Debris Removal", href: "/debris-removal-velachery" },
+          { label: "Perungudi Debris Removal", href: "/debris-removal-perungudi" }
+        ]}
+      />
       <Footer />
       <FloatingButtons />
     </div>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import InternalLinks from "@/components/InternalLinks";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, Mountain, Droplets, CheckCircle } from "lucide-react";
@@ -82,6 +83,16 @@ const SandTransportPage = () => {
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Construction Debris Removal Chennai", href: "/construction-debris-removal-chennai" },
+          { label: "Tata 407 Transport Chennai", href: "/tata-407-transport-chennai" }
+        ]}
+        locations={[
+          { label: "Tambaram Debris Removal", href: "/debris-removal-tambaram" },
+          { label: "Velachery Debris Removal", href: "/debris-removal-velachery" }
+        ]}
+      />
       <Footer />
     </div>
   );

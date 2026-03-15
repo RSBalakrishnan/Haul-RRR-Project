@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import InternalLinks from "@/components/InternalLinks";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, CheckCircle, ArrowRight } from "lucide-react";
@@ -118,13 +119,22 @@ const ConstructionDebrisPage = () => {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/demolition-waste-removal-chennai" className="text-muted-foreground hover:text-primary underline">Demolition Removal</a>
               <a href="/debris-removal-chennai" className="text-muted-foreground hover:text-primary underline">General Debris</a>
-              <a href="/tata-407-transport-chennai" className="text-muted-foreground hover:text-primary underline">Tata 407 Rental</a>
               <a href="/m-sand-p-sand-transport-chennai" className="text-muted-foreground hover:text-primary underline">Sand Delivery</a>
             </div>
           </div>
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Demolition Waste Removal Chennai", href: "/demolition-waste-removal-chennai" },
+          { label: "Tata 407 Transport Chennai", href: "/tata-407-transport-chennai" }
+        ]}
+        locations={[
+          { label: "Velachery Debris Removal", href: "/debris-removal-velachery" },
+          { label: "Tambaram Debris Removal", href: "/debris-removal-tambaram" }
+        ]}
+      />
       <Footer />
     </div>
   );

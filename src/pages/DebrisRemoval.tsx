@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import InternalLinks from "@/components/InternalLinks";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, CheckCircle2, ChevronRight } from "lucide-react";
@@ -151,6 +152,16 @@ const DebrisRemovalPage = () => {
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Construction Debris Removal Chennai", href: "/construction-debris-removal-chennai" },
+          { label: "Tata 407 Transport Chennai", href: "/tata-407-transport-chennai" }
+        ]}
+        locations={[
+          { label: "Medavakkam Debris Removal", href: "/debris-removal-medavakkam" },
+          { label: "Tambaram Debris Removal", href: "/debris-removal-tambaram" }
+        ]}
+      />
       <Footer />
     </div>
   );

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import InternalLinks from "@/components/InternalLinks";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, CheckCircle, MapPin, Truck } from "lucide-react";
@@ -106,6 +107,16 @@ const TambaramPage = () => {
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Debris Removal Chennai", href: "/debris-removal-chennai" },
+          { label: "Construction Debris Removal Chennai", href: "/construction-debris-removal-chennai" }
+        ]}
+        locations={[
+          { label: "Medavakkam Debris Removal", href: "/debris-removal-medavakkam" },
+          { label: "Sholinganallur Debris Removal", href: "/debris-removal-sholinganallur" }
+        ]}
+      />
       <Footer />
     </div>
   );

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import InternalLinks from "@/components/InternalLinks";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, Truck, ShieldCheck, MapPin } from "lucide-react";
@@ -89,6 +90,16 @@ const Tata407TransportPage = () => {
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Debris Removal Chennai", href: "/debris-removal-chennai" },
+          { label: "M-Sand & P-Sand Transport Chennai", href: "/m-sand-p-sand-transport-chennai" }
+        ]}
+        locations={[
+          { label: "Perungudi Debris Removal", href: "/debris-removal-perungudi" },
+          { label: "Medavakkam Debris Removal", href: "/debris-removal-medavakkam" }
+        ]}
+      />
       <Footer />
     </div>
   );

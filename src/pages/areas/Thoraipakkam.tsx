@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import InternalLinks from "@/components/InternalLinks";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, CheckCircle, MapPin, Building2 } from "lucide-react";
@@ -104,6 +105,16 @@ const ThoraipakkamPage = () => {
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Demolition Waste Removal Chennai", href: "/demolition-waste-removal-chennai" },
+          { label: "Tata 407 Transport Chennai", href: "/tata-407-transport-chennai" }
+        ]}
+        locations={[
+          { label: "Perungudi Debris Removal", href: "/debris-removal-perungudi" },
+          { label: "Sholinganallur Debris Removal", href: "/debris-removal-sholinganallur" }
+        ]}
+      />
       <Footer />
     </div>
   );

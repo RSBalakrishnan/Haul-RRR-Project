@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import InternalLinks from "@/components/InternalLinks";
 import { Phone, CheckCircle, MapPin, HardHat } from "lucide-react";
 
 const PerungudiPage = () => {
@@ -116,6 +117,16 @@ const PerungudiPage = () => {
         </section>
       </main>
 
+      <InternalLinks 
+        services={[
+          { label: "Construction Debris Removal Chennai", href: "/construction-debris-removal-chennai" },
+          { label: "Tata 407 Transport Chennai", href: "/tata-407-transport-chennai" }
+        ]}
+        locations={[
+          { label: "Velachery Debris Removal", href: "/debris-removal-velachery" },
+          { label: "Thoraipakkam Debris Removal", href: "/debris-removal-thoraipakkam" }
+        ]}
+      />
       <Footer />
     </div>
   );
