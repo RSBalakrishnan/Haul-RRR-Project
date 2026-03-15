@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import SEO from "@/components/SEO";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
@@ -11,31 +11,13 @@ import FloatingButtons from "@/components/FloatingButtons";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-
-
-  useEffect(() => {
-
-    const timer = setTimeout(() => {
-
-      const fleet = document.querySelector("#fleet");
-
-      if (!fleet) return;
-
-      fleet.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-      });
-
-    }, 2700);
-
-    return () => clearTimeout(timer);
-
-  }, []);
-
-
-
   return (
     <div className="min-h-screen bg-background">
+      <SEO 
+        title="Best Debris Removal Chennai | Building Demolition & Transport" 
+        description="RRR Transport provides professional debris removal, building demolition waste management, and construction transport in Chennai. Reliable Tata 407 fleet for all site clearance needs." 
+        canonical="https://rrrtransport.in/"
+      />
       <Navbar />
       <HeroSection />
       <ServicesSection />

@@ -1,11 +1,17 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Phone, CheckCircle2, ChevronRight, HardHat } from "lucide-react";
 
 const DemolitionWastePage = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO 
+        title="Demolition Waste Removal Chennai" 
+        description="Professional demolition waste removal services in Chennai. We handle building debris, concrete rubble, and site clearance using specialized Tata 407 trucks." 
+        canonical="https://rrrtransport.in/demolition-waste-removal-chennai"
+      />
       <Navbar />
       
       <main>

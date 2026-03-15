@@ -5,11 +5,11 @@ import { cn } from "@/lib/utils";
 import logo from "@/assets/rrr-logo.jpeg";
 
 const navLinks = [
-  { label: "Home", href: "/#home" },
+  { label: "Home", href: "/" },
   { label: "Debris Removal", href: "/debris-removal-chennai" },
-  { label: "Services", href: "/#services" },
-  { label: "Fleet", href: "/#fleet" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Construction Debris", href: "/construction-debris-removal-chennai" },
+  { label: "Tata 407", href: "/tata-407-transport-chennai" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const Navbar = () => {

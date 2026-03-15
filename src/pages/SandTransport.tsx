@@ -1,11 +1,17 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Phone, Mountain, Droplets, CheckCircle } from "lucide-react";
 
 const SandTransportPage = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO 
+        title="M Sand & P Sand Transport Chennai | Quality Sand Delivery" 
+        description="Premium M-Sand and P-Sand delivery in Chennai. We transport high-quality manufactured sand for concrete and plastering directly to your site." 
+        canonical="https://rrrtransport.in/m-sand-p-sand-transport-chennai"
+      />
       <Navbar />
       
       <main>

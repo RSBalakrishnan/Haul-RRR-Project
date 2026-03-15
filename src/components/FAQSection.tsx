@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: "How much does debris removal cost in Chennai?",
-    answer: "Costs typically depend on the volume of waste and transport distance. Using our Tata 407 fleet, we offer competitive fixed rates starting from ₹1,500 per load within 35km of Perungudi."
+    answer: "Costs typically depend on the volume of waste and transport distance. Using our Tata 407 fleet, we offer competitive fixed rates starting from ₹2,000 per load within 35km of Perungudi."
   },
   {
     question: "Do you provide demolition waste transport?",
@@ -42,8 +42,8 @@ const FAQSection = () => {
 
         <div className="max-w-3xl mx-auto space-y-4">
           {faqs.map((faq, i) => (
-            <div 
-              key={i} 
+            <div
+              key={i}
               className="glass-panel overflow-hidden transition-all duration-300 border border-border/50"
             >
               <button
@@ -53,7 +53,7 @@ const FAQSection = () => {
                 <span className="font-display font-bold text-lg text-foreground">{faq.question}</span>
                 {openIndex === i ? <Minus className="text-primary" /> : <Plus className="text-primary" />}
               </button>
-              
+
               <motion.div
                 initial={false}
                 animate={{ height: openIndex === i ? "auto" : 0, opacity: openIndex === i ? 1 : 0 }}

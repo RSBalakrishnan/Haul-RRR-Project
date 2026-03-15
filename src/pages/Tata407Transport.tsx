@@ -1,11 +1,17 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Phone, Truck, ShieldCheck, MapPin } from "lucide-react";
 
 const Tata407TransportPage = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO 
+        title="Tata 407 Transport Chennai | Rental & Logistics" 
+        description="Hire Tata 407 4x4 trucks in Chennai for construction material transport, debris hauling, and site logistics. Reliable 24/7 transport service." 
+        canonical="https://rrrtransport.in/tata-407-transport-chennai"
+      />
       <Navbar />
       
       <main>
