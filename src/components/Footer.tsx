@@ -1,43 +1,58 @@
 import { Phone } from "lucide-react";
-import logo from "@/assets/rrr-logo.jpeg";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-border/30 py-12 relative">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
-            <img
-              src={logo}
-              alt="RRR Transport Logo"
-              className="w-10 h-10  object-cover transition-all duration-300 hover:scale-110 hover:shadow-[0_0_12px_4px_rgba(208,255,67,0.7)]"
-            />
-            <span className="font-display font-bold text-lg text-foreground">RRR Transport</span>
+    <footer className="bg-card/30 pt-20 pb-10 border-t border-border/50">
+      <div className="container mx-auto px-4 text-center">
+        <div className="grid md:grid-cols-3 gap-12 mb-16 text-left">
+          <div className="col-span-1">
+            <h3 className="font-display font-bold text-2xl text-foreground mb-4">RRR Transport</h3>
+            <p className="text-muted-foreground max-w-sm mb-6">
+              Professional debris removal Chennai, building demolition, and construction waste transport. Trusted Tata 407 logistics partner since 2018.
+            </p>
+          </div>
+          
+          <div>
+            <h4 className="font-display font-bold text-lg text-foreground mb-6">Services</h4>
+            <ul className="space-y-4">
+              <li><a href="/debris-removal-chennai" className="text-muted-foreground hover:text-primary transition-colors">Debris Removal Chennai</a></li>
+              <li><a href="/#services" className="text-muted-foreground hover:text-primary transition-colors">Demolition Waste Removal</a></li>
+              <li><a href="/#services" className="text-muted-foreground hover:text-primary transition-colors">Construction Waste Transport</a></li>
+              <li><a href="/#services" className="text-muted-foreground hover:text-primary transition-colors">M-Sand & P-Sand Delivery</a></li>
+            </ul>
           </div>
 
-          <p className="text-muted-foreground text-sm text-center">
-            Perungudi, Chennai - 600096 • All types of Debris, Demolition, Waste Removal & Sand Transport
-          </p>
-
-
-
-          <a
-            href="tel:+918667611496"
-            className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors text-sm font-medium"
-          >
-            <Phone size={14} />
-            +91 86676 11496
-          </a>
+          <div>
+            <h4 className="font-display font-bold text-lg text-foreground mb-6">Contact Us</h4>
+            <ul className="space-y-4">
+              <li>
+                <a href="tel:+918667611496" className="flex items-center gap-2 text-primary font-bold text-xl hover:underline">
+                  <Phone size={20} />
+                  +91 86676 11496
+                </a>
+              </li>
+              <li className="text-muted-foreground text-sm">
+                Perungudi, Chennai - 600096
+              </li>
+              <li>
+                <a href="/#contact" className="text-muted-foreground hover:text-primary transition-colors">Emergency Site Clearance</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="text-center mt-8 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} RRR Transport. All rights reserved.
+
+        <div className="border-t border-border/30 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-muted-foreground">
+            © {new Date().getFullYear()} RRR Transport Chennai. All rights reserved.
+          </p>
+          <div className="flex gap-6 text-xs text-muted-foreground">
+            <a href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:text-primary transition-colors">Terms of Service</a>
+          </div>
         </div>
       </div>
     </footer>
   );
 };
-
-
-
 
 export default Footer;
