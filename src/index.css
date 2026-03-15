@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 80 100% 95%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 80 100% 95%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 80 100% 95%;
+
+    --primary: 80 100% 50%;
+    --primary-foreground: 0 0% 4%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 80 100% 95%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 80 100% 50%;
+    --accent-foreground: 0 0% 4%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 80 100% 50%;
+
+    --radius: 0.75rem;
+
+    --lime: 80 100% 50%;
+    --lime-glow: 80 100% 50%;
+    --charcoal: 0 0% 8%;
+    --charcoal-deep: 0 0% 4%;
+    --charcoal-light: 0 0% 12%;
+
+    --sidebar-background: 0 0% 6%;
+    --sidebar-foreground: 80 100% 95%;
+    --sidebar-primary: 80 100% 50%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 80 100% 95%;
+    --sidebar-border: 0 0% 16%;
+    --sidebar-ring: 80 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .glass-panel {
+    @apply bg-card/40 backdrop-blur-xl border border-border/50 rounded-xl;
+  }
+
+  .glass-panel-hover {
+    @apply glass-panel transition-all duration-500 hover:bg-card/60 hover:border-primary/30 hover:shadow-[0_0_30px_-5px_hsl(var(--primary)/0.3)];
+  }
+
+  .lime-glow {
+    box-shadow: 0 0 60px 20px hsl(var(--lime) / 0.15),
+                0 0 120px 40px hsl(var(--lime) / 0.05);
+  }
+
+  .lime-glow-sm {
+    box-shadow: 0 0 20px 5px hsl(var(--lime) / 0.2);
+  }
+
+  .text-gradient-lime {
+    @apply bg-gradient-to-r from-primary to-[hsl(100,100%,60%)] bg-clip-text text-transparent;
+  }
+
+  .grid-pattern {
+    background-image: 
+      linear-gradient(hsl(var(--border) / 0.3) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.3) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .grid-pattern-fine {
+    background-image: 
+      linear-gradient(hsl(var(--border) / 0.15) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.15) 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+}
