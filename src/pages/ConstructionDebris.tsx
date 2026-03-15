@@ -11,6 +11,38 @@ const ConstructionDebrisPage = () => {
         title="Construction Debris Removal Chennai" 
         description="Fast and reliable construction debris removal in Chennai. We handle site clearance, waste transport, and rubbish removal using Tata 407 trucks." 
         canonical="https://rrrtransport.in/construction-debris-removal-chennai"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Service",
+              "serviceType": "Construction Debris Removal",
+              "provider": {
+                "@type": "LocalBusiness",
+                "name": "RRR Transport"
+              },
+              "areaServed": "Chennai",
+              "description": "Specialized site clearance and construction waste transport for builders and homeowners."
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://rrrtransport.in/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Construction Debris Removal",
+                  "item": "https://rrrtransport.in/construction-debris-removal-chennai"
+                }
+              ]
+            }
+          ]
+        }}
       />
       <Navbar />
       

@@ -11,6 +11,24 @@ const SholinganallurPage = () => {
         title="Debris Removal Sholinganallur Chennai | Construction Waste" 
         description="Professional debris removal in Sholinganallur, Chennai. Site clearance and demolition waste hauling for OMR residential and IT projects." 
         canonical="https://rrrtransport.in/debris-removal-sholinganallur"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrrtransport.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Sholinganallur Debris Removal",
+              "item": "https://rrrtransport.in/debris-removal-sholinganallur"
+            }
+          ]
+        }}
       />
       <Navbar />
       

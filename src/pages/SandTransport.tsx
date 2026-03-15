@@ -11,6 +11,38 @@ const SandTransportPage = () => {
         title="M Sand & P Sand Transport Chennai | Quality Sand Delivery" 
         description="Premium M-Sand and P-Sand delivery in Chennai. We transport high-quality manufactured sand for concrete and plastering directly to your site." 
         canonical="https://rrrtransport.in/m-sand-p-sand-transport-chennai"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Service",
+              "serviceType": "M Sand & P Sand Transport",
+              "provider": {
+                "@type": "LocalBusiness",
+                "name": "RRR Transport"
+              },
+              "areaServed": "Chennai",
+              "description": "High-quality M-Sand and P-Sand delivery services across Chennai."
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://rrrtransport.in/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Sand Transport",
+                  "item": "https://rrrtransport.in/m-sand-p-sand-transport-chennai"
+                }
+              ]
+            }
+          ]
+        }}
       />
       <Navbar />
       

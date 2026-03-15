@@ -11,6 +11,24 @@ const PerungudiPage = () => {
         title="Debris Removal Perungudi Chennai | Site Clearance" 
         description="Reliable debris removal services in Perungudi, Chennai. Construction waste hauling and building demolition rubbish removal for OMR projects." 
         canonical="https://rrrtransport.in/debris-removal-perungudi"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrrtransport.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Perungudi Debris Removal",
+              "item": "https://rrrtransport.in/debris-removal-perungudi"
+            }
+          ]
+        }}
       />
       <Navbar />
       

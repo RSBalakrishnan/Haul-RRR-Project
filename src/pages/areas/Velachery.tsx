@@ -11,6 +11,24 @@ const VelacheryPage = () => {
         title="Debris Removal Velachery Chennai | Site Clearance Services" 
         description="Professional debris removal in Velachery, Chennai. Reliable construction waste transport and demolition site clearance using Tata 407 trucks." 
         canonical="https://rrrtransport.in/debris-removal-velachery"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrrtransport.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Velachery Debris Removal",
+              "item": "https://rrrtransport.in/debris-removal-velachery"
+            }
+          ]
+        }}
       />
       <Navbar />
       

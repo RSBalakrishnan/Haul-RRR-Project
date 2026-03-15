@@ -11,6 +11,38 @@ const Tata407TransportPage = () => {
         title="Tata 407 Transport Chennai | Rental & Logistics" 
         description="Hire Tata 407 4x4 trucks in Chennai for construction material transport, debris hauling, and site logistics. Reliable 24/7 transport service." 
         canonical="https://rrrtransport.in/tata-407-transport-chennai"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Service",
+              "serviceType": "Tata 407 Transport",
+              "provider": {
+                "@type": "LocalBusiness",
+                "name": "RRR Transport"
+              },
+              "areaServed": "Chennai",
+              "description": "Heavy-duty material transport and logistics using Tata 407 4x4 trucks."
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://rrrtransport.in/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Tata 407 Transport",
+                  "item": "https://rrrtransport.in/tata-407-transport-chennai"
+                }
+              ]
+            }
+          ]
+        }}
       />
       <Navbar />
       

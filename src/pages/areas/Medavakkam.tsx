@@ -11,6 +11,24 @@ const MedavakkamPage = () => {
         title="Debris Removal Medavakkam Chennai | Site Clearance" 
         description="Professional debris removal services in Medavakkam, Chennai. Fast construction waste hauling and site clearance using Tata 407 trucks. Call +91 8667611496." 
         canonical="https://rrrtransport.in/debris-removal-medavakkam"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrrtransport.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Medavakkam Debris Removal",
+              "item": "https://rrrtransport.in/debris-removal-medavakkam"
+            }
+          ]
+        }}
       />
       <Navbar />
       

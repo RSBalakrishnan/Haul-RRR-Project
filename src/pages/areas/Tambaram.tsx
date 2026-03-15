@@ -11,6 +11,24 @@ const TambaramPage = () => {
         title="Debris Removal Tambaram Chennai | Site Cleanup Services" 
         description="Top-rated debris removal in Tambaram, Chennai. Professional construction waste transport and demolition site clearance using 4x4 Tata 407 trucks." 
         canonical="https://rrrtransport.in/debris-removal-tambaram"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrrtransport.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Tambaram Debris Removal",
+              "item": "https://rrrtransport.in/debris-removal-tambaram"
+            }
+          ]
+        }}
       />
       <Navbar />
       

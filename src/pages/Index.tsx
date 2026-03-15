@@ -17,6 +17,55 @@ const Index = () => {
         title="Best Debris Removal Chennai | Building Demolition & Transport" 
         description="RRR Transport provides professional debris removal, building demolition waste management, and construction transport in Chennai. Reliable Tata 407 fleet for all site clearance needs." 
         canonical="https://rrrtransport.in/"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://rrrtransport.in/#organization",
+              "name": "RRR Transport",
+              "url": "https://rrrtransport.in/",
+              "telephone": "+918667611496",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Perungudi",
+                "addressLocality": "Chennai",
+                "addressRegion": "TN",
+                "postalCode": "600096",
+                "addressCountry": "IN"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 12.9654,
+                "longitude": 80.2461
+              },
+              "priceRange": "₹₹",
+              "openingHours": "Mo-Su 00:00-23:59",
+              "image": "https://rrrtransport.in/assets/rrr-logo.jpeg"
+            },
+            {
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How much does debris removal cost in Chennai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Costs typically depend on the volume of waste and transport distance. Using our Tata 407 fleet, we offer competitive fixed rates starting from ₹2,000 per load within 35km of Perungudi."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do you serve all areas in Chennai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we primarily serve Velachery, Perungudi, Medavakkam, Tambaram, Thoraipakkam, and Sholinganallur, but we cover any location within a 35km radius of South Chennai."
+                  }
+                }
+              ]
+            }
+          ]
+        }}
       />
       <Navbar />
       <HeroSection />

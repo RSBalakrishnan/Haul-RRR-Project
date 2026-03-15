@@ -11,6 +11,38 @@ const DemolitionWastePage = () => {
         title="Demolition Waste Removal Chennai" 
         description="Professional demolition waste removal services in Chennai. We handle building debris, concrete rubble, and site clearance using specialized Tata 407 trucks." 
         canonical="https://rrrtransport.in/demolition-waste-removal-chennai"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Service",
+              "serviceType": "Demolition Waste Removal",
+              "provider": {
+                "@type": "LocalBusiness",
+                "name": "RRR Transport"
+              },
+              "areaServed": "Chennai",
+              "description": "Efficient removal and transport of building demolition waste and rubble."
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://rrrtransport.in/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Demolition Waste Removal",
+                  "item": "https://rrrtransport.in/demolition-waste-removal-chennai"
+                }
+              ]
+            }
+          ]
+        }}
       />
       <Navbar />
       

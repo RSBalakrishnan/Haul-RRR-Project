@@ -11,6 +11,24 @@ const ThoraipakkamPage = () => {
         title="Debris Removal Thoraipakkam Chennai | Site Clearance" 
         description="Professional construction debris removal in Thoraipakkam, OMR. Expert demolition waste transport and rubbish removal services. Call +91 8667611496." 
         canonical="https://rrrtransport.in/debris-removal-thoraipakkam"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrrtransport.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Thoraipakkam Debris Removal",
+              "item": "https://rrrtransport.in/debris-removal-thoraipakkam"
+            }
+          ]
+        }}
       />
       <Navbar />
       
