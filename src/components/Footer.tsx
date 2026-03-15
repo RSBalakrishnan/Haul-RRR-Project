@@ -33,6 +33,18 @@ const Footer = () => {
           </div>
 
           <div>
+            <h4 className="font-display font-bold text-lg text-foreground mb-6">Service Areas</h4>
+            <ul className="space-y-4 text-sm">
+              <li><a href="/debris-removal-velachery" className="text-muted-foreground hover:text-primary transition-colors">Velachery</a></li>
+              <li><a href="/debris-removal-perungudi" className="text-muted-foreground hover:text-primary transition-colors">Perungudi</a></li>
+              <li><a href="/debris-removal-medavakkam" className="text-muted-foreground hover:text-primary transition-colors">Medavakkam</a></li>
+              <li><a href="/debris-removal-tambaram" className="text-muted-foreground hover:text-primary transition-colors">Tambaram</a></li>
+              <li><a href="/debris-removal-thoraipakkam" className="text-muted-foreground hover:text-primary transition-colors">Thoraipakkam</a></li>
+              <li><a href="/debris-removal-sholinganallur" className="text-muted-foreground hover:text-primary transition-colors">Sholinganallur</a></li>
+            </ul>
+          </div>
+
+          <div>
             <h4 className="font-display font-bold text-lg text-foreground mb-6">Contact Us</h4>
             <ul className="space-y-4">
               <li>
