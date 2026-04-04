@@ -5,14 +5,15 @@ import heroImage from "@/assets/hero-section-407.png";
 const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Grid pattern background */}
-      <div className="absolute inset-0 grid-pattern opacity-30" />
+      {/* Liquid Blobs Background */}
+      <div className="absolute top-[20%] left-[20%] w-[400px] h-[400px] liquid-blob opacity-40 translate-x-[-50%] translate-y-[-50%]" />
+      <div className="absolute bottom-[20%] right-[20%] w-[500px] h-[500px] liquid-blob opacity-20 mix-blend-screen translate-x-[50%] translate-y-[50%]" style={{ animationDelay: '-4s' }} />
 
       {/* Lime glow backdrop */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full lime-glow opacity-40" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full lime-glow opacity-30 mix-blend-screen" />
 
       {/* Radial gradient overlay */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,hsl(var(--background))_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_10%,hsl(var(--background))_80%)] backdrop-blur-[2px]" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen pt-20">
@@ -27,7 +28,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
-              className="inline-flex items-center gap-2 glass-panel px-4 py-2 w-fit"
+              className="inline-flex items-center gap-2 liquid-glass px-4 py-2 w-fit"
             >
               <div className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
               <span className="text-sm font-medium text-muted-foreground">Chennai's Trusted Logistics Partner</span>
@@ -48,8 +49,9 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-4 mt-2">
               <a
                 href="tel:+918667611496"
-                className="flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-display font-bold text-lg hover:shadow-[0_0_30px_8px_hsl(80_100%_50%/0.3)] transition-all duration-300 hover:scale-105"
+                className="flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-display font-bold text-lg hover:shadow-[0_0_30px_8px_hsl(80_100%_50%/0.3)] transition-all duration-300 hover:scale-105 active:scale-95 overflow-hidden relative"
               >
+                <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent translate-x-[-100%] hover:animate-[shine_1.5s_ease-out_infinite]" />
                 <Phone size={20} />
                 Call Now
               </a>
@@ -57,7 +59,7 @@ const HeroSection = () => {
                 href="https://wa.me/918667611496?text=Hi%2C%20I%20need%20a%20quote%20for%20transport%20services"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 glass-panel px-8 py-4 rounded-xl font-display font-bold text-lg text-foreground hover:border-primary/50 hover:shadow-[0_0_20px_5px_hsl(80_100%_50%/0.15)] transition-all duration-300 hover:scale-105"
+                className="flex items-center gap-2 liquid-glass hover:nm-convex active:nm-concave px-8 py-4 rounded-xl font-display font-bold text-lg text-foreground transition-all duration-300 hover:scale-105"
               >
                 <MessageCircle size={20} />
                 Get Quote
@@ -98,7 +100,7 @@ const HeroSection = () => {
             >
               <img
                 src={heroImage}
-                alt="Tata 407 debris removal truck in Chennai - RRR Transport"
+                alt="Tata 407 debris removal truck in Chennai - Rajamani Transport"
                 width={800}
                 height={600}
                 loading="eager"

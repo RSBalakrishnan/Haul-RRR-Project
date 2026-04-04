@@ -11,7 +11,7 @@ const ThoraipakkamPage = () => {
       <SEO 
         title="Debris Removal Thoraipakkam Chennai | Site Clearance" 
         description="Professional construction debris removal in Thoraipakkam, OMR. Expert demolition waste transport and rubbish removal services. Call +91 8667611496." 
-        canonical="https://rrrtransport.in/debris-removal-thoraipakkam"
+        canonical="https://rajamanitransport.in/debris-removal-thoraipakkam"
         schema={{
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
@@ -20,13 +20,13 @@ const ThoraipakkamPage = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://rrrtransport.in/"
+              "item": "https://rajamanitransport.in/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Thoraipakkam Debris Removal",
-              "item": "https://rrrtransport.in/debris-removal-thoraipakkam"
+              "item": "https://rajamanitransport.in/debris-removal-thoraipakkam"
             }
           ]
         }}
@@ -56,7 +56,7 @@ const ThoraipakkamPage = () => {
               <div className="prose prose-invert prose-lime max-w-none mb-16">
                 <h2 className="text-3xl font-display font-bold text-primary">Efficient Debris Removal Thoraipakkam OMR</h2>
                 <p>
-                   Thoraipakkam is the heartbeat of the IT corridor on Old Mahabalipuram Road (OMR). RRR Transport provides high-performance <strong>debris removal Thoraipakkam</strong> services for both corporate office renovations and large residential complexes. We ensure your construction site stays clutter-free, reducing safety risks and improving operational flow.
+                   Thoraipakkam is the heartbeat of the IT corridor on Old Mahabalipuram Road (OMR). Rajamani Transport provides high-performance <strong>debris removal Thoraipakkam</strong> services for both corporate office renovations and large residential complexes. We ensure your construction site stays clutter-free, reducing safety risks and improving operational flow.
                 </p>
                 <p>
                    Our <strong>construction debris removal in Thoraipakkam</strong> is tailored for the high-density urban environment of the OMR. We specialize in same-day site clearance for interior fit-out projects and building expansions.

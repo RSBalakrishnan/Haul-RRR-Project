@@ -11,7 +11,7 @@ const PerungudiPage = () => {
       <SEO 
         title="Debris Removal Perungudi Chennai | Site Clearance" 
         description="Reliable debris removal services in Perungudi, Chennai. Construction waste hauling and building demolition rubbish removal for OMR projects." 
-        canonical="https://rrrtransport.in/debris-removal-perungudi"
+        canonical="https://rajamanitransport.in/debris-removal-perungudi"
         schema={{
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
@@ -20,13 +20,13 @@ const PerungudiPage = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://rrrtransport.in/"
+              "item": "https://rajamanitransport.in/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Perungudi Debris Removal",
-              "item": "https://rrrtransport.in/debris-removal-perungudi"
+              "item": "https://rajamanitransport.in/debris-removal-perungudi"
             }
           ]
         }}
@@ -56,7 +56,7 @@ const PerungudiPage = () => {
               <div className="prose prose-invert prose-lime max-w-none mb-16">
                 <h2 className="text-3xl font-display font-bold text-primary">Primary Debris Removal Perungudi</h2>
                 <p>
-                  As Perungudi continues to grow as a major tech and residential destination on the OMR, the demand for efficient site management has never been higher. RRR Transport is proud to be the leading provider of <strong>debris removal Perungudi</strong>, helping builders keep their construction sites pristine and compliant with environmental standards.
+                  As Perungudi continues to grow as a major tech and residential destination on the OMR, the demand for efficient site management has never been higher. Rajamani Transport is proud to be the leading provider of <strong>debris removal Perungudi</strong>, helping builders keep their construction sites pristine and compliant with environmental standards.
                 </p>
                 <p>
                   Our base in Perungudi allows us to provide the fastest response times for <strong>construction debris removal Perungudi</strong>. We understand the specific logistical needs of the OMR corridor, where timely site clearance is essential to avoid blocking secondary access roads.
@@ -96,7 +96,7 @@ const PerungudiPage = () => {
 
                 <h3 className="text-2xl font-display font-bold text-foreground mb-4">Get the Best Quotes Today</h3>
                 <p>
-                  Experience the most efficient <strong>debris removal Chennai Perungudi</strong>. Reach out to RRR Transport for a site evaluation and a competitive quote that fits your project budget.
+                  Experience the most efficient <strong>debris removal Chennai Perungudi</strong>. Reach out to Rajamani Transport for a site evaluation and a competitive quote that fits your project budget.
                 </p>
               </div>
 

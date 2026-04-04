@@ -11,7 +11,7 @@ const DebrisRemovalPage = () => {
       <SEO 
         title="Professional Debris Removal Chennai" 
         description="Reliable debris removal in Chennai handling construction waste, demolition rubble, and site clearance with Tata 407 trucks." 
-        canonical="https://rrrtransport.in/debris-removal-chennai"
+        canonical="https://rajamanitransport.in/debris-removal-chennai"
         schema={{
           "@context": "https://schema.org",
           "@graph": [
@@ -20,7 +20,7 @@ const DebrisRemovalPage = () => {
               "serviceType": "Debris Removal",
               "provider": {
                 "@type": "LocalBusiness",
-                "name": "RRR Transport"
+                "name": "Rajamani Transport"
               },
               "areaServed": "Chennai",
               "description": "Professional removal of construction and demolition debris using Tata 407 trucks."
@@ -32,13 +32,13 @@ const DebrisRemovalPage = () => {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://rrrtransport.in/"
+                  "item": "https://rajamanitransport.in/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Debris Removal Chennai",
-                  "item": "https://rrrtransport.in/debris-removal-chennai"
+                  "item": "https://rajamanitransport.in/debris-removal-chennai"
                 }
               ]
             }
@@ -80,10 +80,10 @@ const DebrisRemovalPage = () => {
             <div className="max-w-3xl mx-auto prose prose-invert prose-lime">
               <h2 className="text-3xl font-display font-bold text-primary mb-6">Expert Construction Debris Removal in Chennai</h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Are you looking for reliable <strong>debris removal Chennai</strong> services? RRR Transport is your trusted partner for all construction waste management needs. Managing a construction site is complex, and the accumulation of debris can lead to delays and safety hazards. Our specialized <strong>construction debris removal Chennai</strong> solutions are designed to keep your project moving smoothly.
+                Are you looking for reliable <strong>debris removal Chennai</strong> services? Rajamani Transport is your trusted partner for all construction waste management needs. Managing a construction site is complex, and the accumulation of debris can lead to delays and safety hazards. Our specialized <strong>construction debris removal Chennai</strong> solutions are designed to keep your project moving smoothly.
               </p>
 
-              <h3 className="text-2xl font-display font-bold text-foreground mb-4">Why Choose RRR Transport for Demolition Waste?</h3>
+              <h3 className="text-2xl font-display font-bold text-foreground mb-4">Why Choose Rajamani Transport for Demolition Waste?</h3>
               <p className="mb-6">
                 We understand the unique challenges of waste disposal in an urban environment like Chennai. Our <strong>demolition waste removal Chennai</strong> services utilize our versatile Tata 407 trucks, which are perfectly sized to navigate tight Chennai streets while carrying heavy loads of debris, bricks, concrete, and soil.
               </p>
@@ -106,14 +106,14 @@ const DebrisRemovalPage = () => {
 
               <h2 className="text-3xl font-display font-bold text-primary mb-6">Our Comprehensive Waste Removal Services</h2>
               <p className="mb-6">
-                Whether it's a small home renovation or a large-scale building demolition, RRR Transport provides tailored solutions for:
+                Whether it's a small home renovation or a large-scale building demolition, Rajamani Transport provides tailored solutions for:
               </p>
               <div className="space-y-6 mb-12">
-                <div className="bg-card p-6 rounded-xl border border-border/50">
+                <div className="liquid-glass nm-flat p-6 rounded-xl">
                   <h4 className="text-xl font-bold text-foreground mb-2">Construction Waste Transport</h4>
                   <p className="text-muted-foreground">Prompt removal of tiles, concrete blocks, plaster, and other masonry materials directly from your site to authorized disposal areas.</p>
                 </div>
-                <div className="bg-card p-6 rounded-xl border border-border/50">
+                <div className="liquid-glass nm-flat p-6 rounded-xl">
                   <h4 className="text-xl font-bold text-foreground mb-2">Rubbish & Scrap Removal</h4>
                   <p className="text-muted-foreground">Efficient clearing of general renovation rubbish and construction scrap that clutters your valuable site space.</p>
                 </div>
@@ -134,7 +134,7 @@ const DebrisRemovalPage = () => {
 
               <h3 className="text-2xl font-display font-bold text-foreground mb-4">Contact Us Today</h3>
               <p className="mb-8">
-                Don't let debris slow down your progress. For the best <strong>debris removal Chennai</strong> has to offer, call RRR Transport today. We provide quick quotes and reliable service using our Tata 407 trucks.
+                Don't let debris slow down your progress. For the best <strong>debris removal Chennai</strong> has to offer, call Rajamani Transport today. We provide quick quotes and reliable service using our Tata 407 trucks.
               </p>
               
               <div className="bg-primary/10 border border-primary/20 p-8 rounded-2xl text-center">

@@ -11,7 +11,7 @@ const TambaramPage = () => {
       <SEO 
         title="Debris Removal Tambaram Chennai | Site Cleanup Services" 
         description="Top-rated debris removal in Tambaram, Chennai. Professional construction waste transport and demolition site clearance using 4x4 Tata 407 trucks." 
-        canonical="https://rrrtransport.in/debris-removal-tambaram"
+        canonical="https://rajamanitransport.in/debris-removal-tambaram"
         schema={{
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
@@ -20,13 +20,13 @@ const TambaramPage = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://rrrtransport.in/"
+              "item": "https://rajamanitransport.in/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Tambaram Debris Removal",
-              "item": "https://rrrtransport.in/debris-removal-tambaram"
+              "item": "https://rajamanitransport.in/debris-removal-tambaram"
             }
           ]
         }}
@@ -56,7 +56,7 @@ const TambaramPage = () => {
               <div className="prose prose-invert prose-lime max-w-none mb-16">
                 <h2 className="text-3xl font-display font-bold text-primary">Expert Debris Removal Tambaram Chennai</h2>
                 <p>
-                  Tambaram, known as the gateway to Chennai, is a major residential and commercial center with unique logistical requirements. RRR Transport specializes in <strong>debris removal Tambaram</strong>, serving both West and East Tambaram regions. Our team helps maintain sites clean by hauling away masonry waste, rubble, and general construction scrap.
+                  Tambaram, known as the gateway to Chennai, is a major residential and commercial center with unique logistical requirements. Rajamani Transport specializes in <strong>debris removal Tambaram</strong>, serving both West and East Tambaram regions. Our team helps maintain sites clean by hauling away masonry waste, rubble, and general construction scrap.
                 </p>
                 <p>
                   Finding <strong>construction debris removal in Tambaram</strong> can be challenging due to the heavy traffic on the GST road. However, we cleverly schedule our site clearances to ensure your waste is removed during the most optimal hours using our compact Tata 407 fleet.

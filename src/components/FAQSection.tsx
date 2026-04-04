@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: "Do you provide demolition waste transport?",
-    answer: "Yes, RRR Transport specializes in demolition waste removal Chennai. We handle concrete, bricks, soil, and mixed masonry waste."
+    answer: "Yes, Rajamani Transport specializes in demolition waste removal Chennai. We handle concrete, bricks, soil, and mixed masonry waste."
   },
   {
     question: "What vehicles do you use?",
@@ -44,7 +44,7 @@ const FAQSection = () => {
           {faqs.map((faq, i) => (
             <div
               key={i}
-              className="glass-panel overflow-hidden transition-all duration-300 border border-border/50"
+              className="liquid-glass nm-flat overflow-hidden transition-all duration-300 border border-border/50 rounded-xl"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}

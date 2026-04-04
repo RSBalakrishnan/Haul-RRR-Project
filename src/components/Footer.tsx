@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="grid md:grid-cols-3 gap-12 mb-16 text-left">
           <div className="col-span-1">
-            <h3 className="font-display font-bold text-2xl text-foreground mb-4">RRR Transport</h3>
+            <h3 className="font-display font-bold text-2xl text-foreground mb-4">Rajamani Transport</h3>
             <p className="text-muted-foreground max-w-sm mb-6">
               Professional debris removal Chennai, building demolition, and construction waste transport. Trusted Tata 407 logistics partner since 2018.
             </p>
@@ -34,13 +34,25 @@ const Footer = () => {
 
           <div>
             <h4 className="font-display font-bold text-lg text-foreground mb-6">Service Areas</h4>
-            <ul className="space-y-4 text-sm">
-              <li><a href="/debris-removal-velachery" className="text-muted-foreground hover:text-primary transition-colors">Debris Removal Velachery</a></li>
-              <li><a href="/debris-removal-perungudi" className="text-muted-foreground hover:text-primary transition-colors">Debris Removal Perungudi</a></li>
-              <li><a href="/debris-removal-medavakkam" className="text-muted-foreground hover:text-primary transition-colors">Debris Removal Medavakkam</a></li>
-              <li><a href="/debris-removal-tambaram" className="text-muted-foreground hover:text-primary transition-colors">Debris Removal Tambaram</a></li>
-              <li><a href="/debris-removal-thoraipakkam" className="text-muted-foreground hover:text-primary transition-colors">Debris Removal Thoraipakkam</a></li>
-              <li><a href="/debris-removal-sholinganallur" className="text-muted-foreground hover:text-primary transition-colors">Debris Removal Sholinganallur</a></li>
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-3 text-xs">
+              <li><a href="/debris-removal-velachery" className="text-muted-foreground hover:text-primary transition-colors">Velachery</a></li>
+              <li><a href="/debris-removal-perungudi" className="text-muted-foreground hover:text-primary transition-colors">Perungudi</a></li>
+              <li><a href="/debris-removal-medavakkam" className="text-muted-foreground hover:text-primary transition-colors">Medavakkam</a></li>
+              <li><a href="/debris-removal-tambaram" className="text-muted-foreground hover:text-primary transition-colors">Tambaram</a></li>
+              <li><a href="/debris-removal-thoraipakkam" className="text-muted-foreground hover:text-primary transition-colors">Thoraipakkam</a></li>
+              <li><a href="/debris-removal-sholinganallur" className="text-muted-foreground hover:text-primary transition-colors">Sholinganallur</a></li>
+              <li><a href="/debris-removal-guindy" className="text-muted-foreground hover:text-primary transition-colors">Guindy</a></li>
+              <li><a href="/debris-removal-pallikaranai" className="text-muted-foreground hover:text-primary transition-colors">Pallikaranai</a></li>
+              <li><a href="/debris-removal-navalur" className="text-muted-foreground hover:text-primary transition-colors">Navalur</a></li>
+              <li><a href="/debris-removal-siruseri" className="text-muted-foreground hover:text-primary transition-colors">Siruseri</a></li>
+              <li><a href="/debris-removal-kelambakkam" className="text-muted-foreground hover:text-primary transition-colors">Kelambakkam</a></li>
+              <li><a href="/debris-removal-ecr" className="text-muted-foreground hover:text-primary transition-colors">ECR</a></li>
+              <li><a href="/debris-removal-taramani" className="text-muted-foreground hover:text-primary transition-colors">Taramani</a></li>
+              <li><a href="/debris-removal-chromepet" className="text-muted-foreground hover:text-primary transition-colors">Chromepet</a></li>
+              <li><a href="/debris-removal-pallavaram" className="text-muted-foreground hover:text-primary transition-colors">Pallavaram</a></li>
+              <li><a href="/debris-removal-madipakkam" className="text-muted-foreground hover:text-primary transition-colors">Madipakkam</a></li>
+              <li><a href="/debris-removal-saidapet" className="text-muted-foreground hover:text-primary transition-colors">Saidapet</a></li>
+              <li><a href="/debris-removal-tnagar" className="text-muted-foreground hover:text-primary transition-colors">T.Nagar</a></li>
             </ul>
           </div>
 
@@ -65,7 +77,7 @@ const Footer = () => {
 
         <div className="border-t border-border/30 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} RRR Transport Chennai. All rights reserved.
+            © {new Date().getFullYear()} Rajamani Transport Chennai. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-muted-foreground">
             <a href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</a>

@@ -11,7 +11,7 @@ const SandTransportPage = () => {
       <SEO 
         title="M Sand & P Sand Transport Chennai | Quality Sand Delivery" 
         description="Premium M-Sand and P-Sand delivery in Chennai. We transport high-quality manufactured sand for concrete and plastering directly to your site." 
-        canonical="https://rrrtransport.in/m-sand-p-sand-transport-chennai"
+        canonical="https://rajamanitransport.in/m-sand-p-sand-transport-chennai"
         schema={{
           "@context": "https://schema.org",
           "@graph": [
@@ -20,7 +20,7 @@ const SandTransportPage = () => {
               "serviceType": "M Sand & P Sand Transport",
               "provider": {
                 "@type": "LocalBusiness",
-                "name": "RRR Transport"
+                "name": "Rajamani Transport"
               },
               "areaServed": "Chennai",
               "description": "High-quality M-Sand and P-Sand delivery services across Chennai."
@@ -32,13 +32,13 @@ const SandTransportPage = () => {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://rrrtransport.in/"
+                  "item": "https://rajamanitransport.in/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Sand Transport",
-                  "item": "https://rrrtransport.in/m-sand-p-sand-transport-chennai"
+                  "item": "https://rajamanitransport.in/m-sand-p-sand-transport-chennai"
                 }
               ]
             }
@@ -61,7 +61,7 @@ const SandTransportPage = () => {
           <div className="container mx-auto px-4 max-w-3xl prose prose-invert prose-lime">
             <h2 className="text-3xl font-display font-bold text-primary mb-6">M Sand Transport Chennai - Quality Guaranteed</h2>
             <p>
-              Finding the right <strong>M Sand transport Chennai</strong> partner is crucial for the structural integrity of your building. RRR Transport supplies and delivers premium M-Sand for concrete work and P-Sand for plastering. We source directly from crushed stone units to ensure purity and quality.
+              Finding the right <strong>M Sand transport Chennai</strong> partner is crucial for the structural integrity of your building. Rajamani Transport supplies and delivers premium M-Sand for concrete work and P-Sand for plastering. We source directly from crushed stone units to ensure purity and quality.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 my-12 not-prose">

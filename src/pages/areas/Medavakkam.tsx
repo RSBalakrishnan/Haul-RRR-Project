@@ -11,7 +11,7 @@ const MedavakkamPage = () => {
       <SEO 
         title="Debris Removal Medavakkam Chennai | Site Clearance" 
         description="Professional debris removal services in Medavakkam, Chennai. Fast construction waste hauling and site clearance using Tata 407 trucks. Call +91 8667611496." 
-        canonical="https://rrrtransport.in/debris-removal-medavakkam"
+        canonical="https://rajamanitransport.in/debris-removal-medavakkam"
         schema={{
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
@@ -20,13 +20,13 @@ const MedavakkamPage = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://rrrtransport.in/"
+              "item": "https://rajamanitransport.in/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Medavakkam Debris Removal",
-              "item": "https://rrrtransport.in/debris-removal-medavakkam"
+              "item": "https://rajamanitransport.in/debris-removal-medavakkam"
             }
           ]
         }}
@@ -56,7 +56,7 @@ const MedavakkamPage = () => {
               <div className="prose prose-invert prose-lime max-w-none mb-16">
                 <h2 className="text-3xl font-display font-bold text-primary">Local Debris Removal Medavakkam Experts</h2>
                 <p>
-                  Medavakkam is experiencing a surge in residential developments, making it one of the fastest-growing suburbs in Chennai. RRR Transport provides essential <strong>debris removal Medavakkam</strong> services to support this growth. We help property owners and civil contractors clear their sites of unwanted construction debris, ensuring work stays on schedule.
+                  Medavakkam is experiencing a surge in residential developments, making it one of the fastest-growing suburbs in Chennai. Rajamani Transport provides essential <strong>debris removal Medavakkam</strong> services to support this growth. We help property owners and civil contractors clear their sites of unwanted construction debris, ensuring work stays on schedule.
                 </p>
                 <p>
                   Our specialized <strong>construction debris removal in Medavakkam</strong> covers everything from rubble to waste soil. We understand that apartment builders need high-frequency removal to keep narrow site entrances clear for material deliveries.
@@ -64,7 +64,7 @@ const MedavakkamPage = () => {
 
                 <h3 className="text-2xl mt-12 mb-4 font-display font-bold text-foreground">Service Highlights for Medavakkam</h3>
                 <p>
-                  When you choose RRR Transport for your Medavakkam project, you get premium service backed by local knowledge:
+                  When you choose Rajamani Transport for your Medavakkam project, you get premium service backed by local knowledge:
                 </p>
                 <ul className="grid md:grid-cols-2 gap-4 list-none p-0 not-prose flex-wrap">
                    <li className="flex items-center gap-2 bg-secondary/20 p-4 rounded-xl border border-border/50"><Clock size={16} className="text-primary"/> Same-day Site Clearance</li>

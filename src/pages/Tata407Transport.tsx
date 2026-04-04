@@ -11,7 +11,7 @@ const Tata407TransportPage = () => {
       <SEO 
         title="Tata 407 Transport Chennai | Rental & Logistics" 
         description="Hire Tata 407 4x4 trucks in Chennai for construction material transport, debris hauling, and site logistics. Reliable 24/7 transport service." 
-        canonical="https://rrrtransport.in/tata-407-transport-chennai"
+        canonical="https://rajamanitransport.in/tata-407-transport-chennai"
         schema={{
           "@context": "https://schema.org",
           "@graph": [
@@ -20,7 +20,7 @@ const Tata407TransportPage = () => {
               "serviceType": "Tata 407 Transport",
               "provider": {
                 "@type": "LocalBusiness",
-                "name": "RRR Transport"
+                "name": "Rajamani Transport"
               },
               "areaServed": "Chennai",
               "description": "Heavy-duty material transport and logistics using Tata 407 4x4 trucks."
@@ -32,13 +32,13 @@ const Tata407TransportPage = () => {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://rrrtransport.in/"
+                  "item": "https://rajamanitransport.in/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Tata 407 Transport",
-                  "item": "https://rrrtransport.in/tata-407-transport-chennai"
+                  "item": "https://rajamanitransport.in/tata-407-transport-chennai"
                 }
               ]
             }
@@ -64,22 +64,22 @@ const Tata407TransportPage = () => {
             <div className="max-w-3xl mx-auto prose prose-invert prose-lime">
               <h2 className="text-3xl font-display font-bold text-primary mb-6">Preferred Tata 407 Rental for Construction Logistics</h2>
               <p>
-                The Tata 407 is the backbone of Chennai's construction logistics. At RRR Transport, we provide dedicated <strong>Tata 407 transport Chennai</strong> services for various materials, including sand, bricks, and debris. Our drivers are highly experienced in local routes, ensuring timely delivery even during peak traffic hours.
+                The Tata 407 is the backbone of Chennai's construction logistics. At Rajamani Transport, we provide dedicated <strong>Tata 407 transport Chennai</strong> services for various materials, including sand, bricks, and debris. Our drivers are highly experienced in local routes, ensuring timely delivery even during peak traffic hours.
               </p>
 
               <h3 className="text-2xl font-display font-bold text-foreground mt-12 mb-4 text-center">Why the Tata 407?</h3>
               <div className="grid md:grid-cols-3 gap-6 my-10 not-prose">
-                <div className="p-6 bg-card border border-border/50 rounded-xl text-center">
+                <div className="p-6 liquid-glass nm-flat rounded-xl text-center">
                   <Truck className="mx-auto text-primary mb-4" size={32} />
                   <h4 className="font-bold mb-2">Compact Power</h4>
                   <p className="text-sm text-muted-foreground">Fits in narrow streets where big trucks can't go.</p>
                 </div>
-                <div className="p-6 bg-card border border-border/50 rounded-xl text-center">
+                <div className="p-6 liquid-glass nm-flat rounded-xl text-center">
                   <ShieldCheck className="mx-auto text-primary mb-4" size={32} />
                   <h4 className="font-bold mb-2">Heavy Load</h4>
                   <p className="text-sm text-muted-foreground">Handles up to 4-5 tons of construction material.</p>
                 </div>
-                <div className="p-6 bg-card border border-border/50 rounded-xl text-center">
+                <div className="p-6 liquid-glass nm-flat rounded-xl text-center">
                   <MapPin className="mx-auto text-primary mb-4" size={32} />
                   <h4 className="font-bold mb-2">4x4 Stability</h4>
                   <p className="text-sm text-muted-foreground">Ideal for muddy construction sites in Chennai.</p>

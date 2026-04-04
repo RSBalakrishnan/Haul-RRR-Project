@@ -4,9 +4,10 @@ import { MapPin } from "lucide-react";
 
 const areas = [
 
-  // NORTH
+  // NORTH & CENTRAL
   { name: "T Nagar", top: "10%", left: "45%" },
   { name: "Anna Nagar", top: "5%", left: "35%" },
+  { name: "Saidapet", top: "22%", left: "45%" },
 
   // NORTH WEST
   { name: "Vadapalani", top: "18%", left: "22%" },
@@ -23,15 +24,18 @@ const areas = [
 
   // SOUTH
   { name: "Medavakkam", top: "72%", left: "50%" },
+  { name: "Madipakkam", top: "55%", left: "35%" },
+  { name: "Pallikaranai", top: "65%", left: "45%" },
 
   // SOUTH EAST
   { name: "Navalur", top: "78%", left: "65%" },
   { name: "Siruseri", top: "88%", left: "70%" },
   { name: "Kelambakkam", top: "95%", left: "72%" },
 
-  // EAST (OMR IT corridor)
+  // EAST (OMR IT corridor & ECR)
   { name: "Sholinganallur", top: "60%", left: "72%" },
   { name: "Thoraipakkam", top: "48%", left: "70%" },
+  { name: "ECR", top: "60%", left: "80%" },
 
   // NORTH EAST
   { name: "Adyar", top: "25%", left: "60%" },
@@ -82,7 +86,7 @@ const CoverageSection = () => {
           className="max-w-3xl mx-auto"
         >
 
-          <div className="p-8 relative bg-card rounded-xl shadow-lg">
+          <div className="p-8 relative liquid-glass nm-flat rounded-3xl shadow-lg">
 
             <div className="relative aspect-square max-w-md mx-auto">
 

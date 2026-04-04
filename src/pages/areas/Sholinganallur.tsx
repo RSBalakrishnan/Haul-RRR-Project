@@ -11,7 +11,7 @@ const SholinganallurPage = () => {
       <SEO 
         title="Debris Removal Sholinganallur Chennai | Construction Waste" 
         description="Professional debris removal in Sholinganallur, Chennai. Site clearance and demolition waste hauling for OMR residential and IT projects." 
-        canonical="https://rrrtransport.in/debris-removal-sholinganallur"
+        canonical="https://rajamanitransport.in/debris-removal-sholinganallur"
         schema={{
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
@@ -20,13 +20,13 @@ const SholinganallurPage = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://rrrtransport.in/"
+              "item": "https://rajamanitransport.in/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Sholinganallur Debris Removal",
-              "item": "https://rrrtransport.in/debris-removal-sholinganallur"
+              "item": "https://rajamanitransport.in/debris-removal-sholinganallur"
             }
           ]
         }}
@@ -56,13 +56,13 @@ const SholinganallurPage = () => {
               <div className="prose prose-invert prose-lime max-w-none mb-16">
                 <h2 className="text-3xl font-display font-bold text-primary">Premier Debris Removal Sholinganallur Chennai</h2>
                 <p>
-                  Sholinganallur is a pivotal center on the OMR, housing massive IT parks and sprawling residential townships. RRR Transport provides the necessary logistical support for these developments through expert <strong>debris removal Sholinganallur</strong>. We handle post-construction cleanup, demolition waste hauling, and rubbish removal with high efficiency.
+                  Sholinganallur is a pivotal center on the OMR, housing massive IT parks and sprawling residential townships. Rajamani Transport provides the necessary logistical support for these developments through expert <strong>debris removal Sholinganallur</strong>. We handle post-construction cleanup, demolition waste hauling, and rubbish removal with high efficiency.
                 </p>
                 <p>
                    Our <strong>construction debris removal in Sholinganallur</strong> ensures that your site operations are not hampered by waste piles. We cater specifically to the needs of civil engineering firms and interior decorators who require regular site clearances.
                 </p>
 
-                <h3 className="text-2xl mt-12 mb-4 font-display font-bold text-foreground">Why Sholinganallur Projects Choose RRR Transport</h3>
+                <h3 className="text-2xl mt-12 mb-4 font-display font-bold text-foreground">Why Sholinganallur Projects Choose Rajamani Transport</h3>
                 <div className="grid md:grid-cols-2 gap-8 my-10 not-prose">
                    <div className="bg-secondary/20 p-8 rounded-2xl border border-border/50 shadow-xl">
                       <Building className="text-primary mb-4" size={32}/>
@@ -98,7 +98,7 @@ const SholinganallurPage = () => {
                 <h2 className="text-2xl font-display font-bold mb-4">Clearing Your Sholinganallur Site?</h2>
                 <p className="text-muted-foreground mb-8">Professional debris hauling and site management for the ELCOT and OMR IT corridor.</p>
                 <a href="tel:+918667611496" className="bg-primary text-primary-foreground px-10 py-5 rounded-2xl font-bold flex items-center justify-center gap-2 w-fit mx-auto transition-transform hover:scale-105">
-                   <Phone size={24} /> Contact RRR: +91 86676 11496
+                   <Phone size={24} /> Contact Rajamani: +91 86676 11496
                 </a>
               </div>
             </div>

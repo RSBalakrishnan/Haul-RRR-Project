@@ -59,7 +59,7 @@ const ServicesSection = () => {
               initial={{ opacity: 0, y: 40 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="glass-panel-hover p-6 group cursor-pointer"
+              className="liquid-glass nm-flat hover:nm-convex p-6 group cursor-pointer transition-all duration-500 hover:-translate-y-2"
             >
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors duration-500">
                 <service.icon size={28} className="text-primary" />

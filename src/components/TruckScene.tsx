@@ -210,7 +210,7 @@ const TruckScene = () => {
         style={{ background: "transparent" }}
       >
         <ambientLight intensity={0.3} />
-        <directionalLight position={[5, 8, 5]} intensity={1.2} color="#db0606ff" />
+        <directionalLight position={[5, 8, 5]} intensity={1.2} color="#ffffffff" />
         <directionalLight position={[-3, 5, -3]} intensity={0.4} color="#aaff00" />
         <pointLight position={[0, 2, 5]} intensity={0.8} color="#aaff00" distance={15} />
         <pointLight position={[0, -1, 0]} intensity={0.3} color="#aaff00" distance={10} />

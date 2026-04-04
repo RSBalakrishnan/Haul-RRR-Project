@@ -40,13 +40,13 @@ const FleetSection = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: i * 0.2 }}
-              className="glass-panel-hover overflow-hidden group"
+              className="liquid-glass nm-flat hover:nm-convex overflow-hidden group transition-all duration-500 hover:-translate-y-2"
             >
               <div className="relative h-56 overflow-hidden bg-secondary/30 flex items-center justify-center">
                 <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent z-10" />
                 <img
                   src={truck.image}
-                  alt={`${truck.name} - RRR Transport construction debris removal vehicle`}
+                  alt={`${truck.name} - Rajamani Transport construction debris removal vehicle`}
                   width={400}
                   height={300}
                   loading="lazy"

@@ -31,11 +31,11 @@ const ContactSection = () => {
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="glass-panel p-8 flex flex-col gap-6"
+            className="liquid-glass nm-flat p-8 flex flex-col gap-6 rounded-2xl"
           >
             <div>
               <h3 className="font-display font-bold text-2xl text-foreground mb-1">Raja R</h3>
-              <p className="text-primary font-display font-semibold">RRR Transport</p>
+              <p className="text-primary font-display font-semibold">Rajamani Transport</p>
             </div>
 
             <div className="flex flex-col gap-4">
@@ -86,7 +86,7 @@ const ContactSection = () => {
             initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="glass-panel p-8 flex flex-col justify-center gap-6"
+            className="liquid-glass nm-flat p-8 flex flex-col justify-center gap-6 rounded-2xl"
           >
             <h3 className="font-display font-bold text-2xl text-foreground">Need a Transport?</h3>
             <p className="text-muted-foreground leading-relaxed">
@@ -96,8 +96,9 @@ const ContactSection = () => {
             <div className="flex flex-col gap-3">
               <a
                 href="tel:+918667611496"
-                className="flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-display font-bold text-lg hover:shadow-[0_0_30px_8px_hsl(80_100%_50%/0.3)] transition-all duration-300"
+                className="flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-display font-bold text-lg hover:shadow-[0_0_30px_8px_hsl(80_100%_50%/0.3)] active:scale-95 transition-all duration-300 relative overflow-hidden group"
               >
+                <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:animate-[shine_1.5s_ease-out_infinite]" />
                 <Phone size={20} />
                 Call Now
               </a>
@@ -105,7 +106,7 @@ const ContactSection = () => {
                 href="https://wa.me/918667611496?text=Hi%2C%20I%20need%20a%20quote%20for%20transport%20services"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 bg-[hsl(142,70%,40%)] text-foreground px-8 py-4 rounded-xl font-display font-bold text-lg hover:bg-[hsl(142,70%,45%)] transition-all duration-300"
+                className="flex items-center justify-center gap-2 bg-[hsl(142,70%,40%)] text-foreground px-8 py-4 rounded-xl font-display font-bold text-lg hover:bg-[hsl(142,70%,45%)] nm-convex active:nm-inset-active transition-all duration-300"
               >
                 <MessageCircle size={20} />
                 WhatsApp Us

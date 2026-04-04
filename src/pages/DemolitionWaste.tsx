@@ -11,7 +11,7 @@ const DemolitionWastePage = () => {
       <SEO 
         title="Demolition Waste Removal Chennai" 
         description="Professional demolition waste removal services in Chennai. We handle building debris, concrete rubble, and site clearance using specialized Tata 407 trucks." 
-        canonical="https://rrrtransport.in/demolition-waste-removal-chennai"
+        canonical="https://rajamanitransport.in/demolition-waste-removal-chennai"
         schema={{
           "@context": "https://schema.org",
           "@graph": [
@@ -20,7 +20,7 @@ const DemolitionWastePage = () => {
               "serviceType": "Demolition Waste Removal",
               "provider": {
                 "@type": "LocalBusiness",
-                "name": "RRR Transport"
+                "name": "Rajamani Transport"
               },
               "areaServed": "Chennai",
               "description": "Efficient removal and transport of building demolition waste and rubble."
@@ -32,13 +32,13 @@ const DemolitionWastePage = () => {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://rrrtransport.in/"
+                  "item": "https://rajamanitransport.in/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Demolition Waste Removal",
-                  "item": "https://rrrtransport.in/demolition-waste-removal-chennai"
+                  "item": "https://rajamanitransport.in/demolition-waste-removal-chennai"
                 }
               ]
             }
@@ -74,7 +74,7 @@ const DemolitionWastePage = () => {
             <div className="max-w-3xl mx-auto prose prose-invert prose-lime">
               <h2 className="text-3xl font-display font-bold text-primary mb-6">Reliable Building Demolition Waste Removal in Chennai</h2>
               <p>
-                Handling <strong>demolition waste removal Chennai</strong> requires specialized equipment and professional expertise. At RRR Transport, we provide end-to-end site clearance services, ensuring that your demolition debris is removed promptly and ethical disposal standards are met. We specialize in handling concrete, steel scrap, wood, and masonry debris from small-to-medium residential demolition sites.
+                Handling <strong>demolition waste removal Chennai</strong> requires specialized equipment and professional expertise. At Rajamani Transport, we provide end-to-end site clearance services, ensuring that your demolition debris is removed promptly and ethical disposal standards are met. We specialize in handling concrete, steel scrap, wood, and masonry debris from small-to-medium residential demolition sites.
               </p>
 
               <h3 className="text-2xl font-display font-bold text-foreground mt-12 mb-4">Our Tata 407 Demolition Fleet</h3>

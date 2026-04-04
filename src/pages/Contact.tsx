@@ -8,9 +8,9 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO 
-        title="Contact RRR Transport Chennai" 
-        description="Get a free quote for debris removal, demolition waste, and sand transport in Chennai. Contact RRR Transport at +91 8667611496." 
-        canonical="https://rrrtransport.in/contact"
+        title="Contact Rajamani Transport Chennai" 
+        description="Get a free quote for debris removal, demolition waste, and sand transport in Chennai. Contact Rajamani Transport at +91 8667611496." 
+        canonical="https://rajamanitransport.in/contact"
       />
       <Navbar />
       
@@ -70,7 +70,7 @@ const ContactPage = () => {
                 </div>
               </div>
 
-              <div className="bg-card p-10 rounded-2xl border border-border/50 shadow-2xl relative overflow-hidden">
+              <div className="liquid-glass nm-flat p-10 rounded-2xl relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-4 opacity-10">
                    <Clock size={120} />
                 </div>
@@ -79,10 +79,11 @@ const ContactPage = () => {
                   For the fastest response, call us directly or message us on WhatsApp with your location and debris volume details.
                 </p>
                 <div className="space-y-4">
-                  <a href="tel:+918667611496" className="flex items-center justify-center gap-2 w-full bg-primary text-primary-foreground py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all">
+                  <a href="tel:+918667611496" className="flex items-center justify-center gap-2 w-full bg-primary text-primary-foreground py-4 rounded-xl font-bold text-lg hover:shadow-[0_0_30px_8px_hsl(80_100%_50%/0.3)] transition-all duration-300 active:scale-95 relative overflow-hidden group">
+                    <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:animate-[shine_1.5s_ease-out_infinite]" />
                     <Phone size={20} /> Call Now
                   </a>
-                  <a href="https://wa.me/918667611496" target="_blank" className="flex items-center justify-center gap-2 w-full bg-emerald-500 text-white py-4 rounded-xl font-bold text-lg shadow-lg hover:bg-emerald-600 transition-all">
+                  <a href="https://wa.me/918667611496" target="_blank" className="flex items-center justify-center gap-2 w-full bg-emerald-500 text-white py-4 rounded-xl font-bold text-lg shadow-lg hover:bg-emerald-600 transition-all duration-300 nm-convex active:nm-inset-active">
                     WhatsApp Message
                   </a>
                 </div>
@@ -91,16 +92,27 @@ const ContactPage = () => {
           </div>
         </section>
 
-        <section className="py-20 bg-card/20 border-t border-border/50">
+        <section className="py-20 liquid-glass border-t border-border/50 nm-flat rounded-t-[3rem] mt-10">
           <div className="container mx-auto px-4 text-center">
              <h2 className="text-2xl font-display font-bold mb-6">Serving Major Locations</h2>
-             <div className="flex flex-wrap justify-center gap-8 text-muted-foreground">
+             <div className="flex flex-wrap justify-center gap-8 text-muted-foreground font-medium">
                 <span>Velachery</span>
                 <span>Perungudi</span>
                 <span>Adyar</span>
+                <span>Guindy</span>
+                <span>Saidapet</span>
+                <span>T.Nagar</span>
                 <span>Medavakkam</span>
+                <span>Pallikaranai</span>
+                <span>Madipakkam</span>
                 <span>Tambaram</span>
+                <span>Chromepet</span>
+                <span>Pallavaram</span>
                 <span>OMR Road</span>
+                <span>Navalur</span>
+                <span>Siruseri</span>
+                <span>Kelambakkam</span>
+                <span>ECR</span>
              </div>
           </div>
         </section>

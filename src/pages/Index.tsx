@@ -16,16 +16,16 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <SEO 
         title="Best Debris Removal Chennai | Building Demolition & Transport" 
-        description="RRR Transport provides professional debris removal, building demolition waste management, and construction transport in Chennai. Reliable Tata 407 fleet for all site clearance needs." 
-        canonical="https://rrrtransport.in/"
+        description="Rajamani Transport provides professional debris removal, building demolition waste management, and construction transport in Chennai. Reliable Tata 407 fleet for all site clearance needs." 
+        canonical="https://rajamanitransport.in/"
         schema={{
           "@context": "https://schema.org",
           "@graph": [
             {
               "@type": "LocalBusiness",
-              "@id": "https://rrrtransport.in/#organization",
-              "name": "RRR Transport",
-              "url": "https://rrrtransport.in/",
+              "@id": "https://rajamanitransport.in/#organization",
+              "name": "Rajamani Transport",
+              "url": "https://rajamanitransport.in/",
               "telephone": "+918667611496",
               "address": {
                 "@type": "PostalAddress",
@@ -42,7 +42,7 @@ const Index = () => {
               },
               "priceRange": "₹₹",
               "openingHours": "Mo-Su 00:00-23:59",
-              "image": "https://rrrtransport.in/assets/rrr-logo.jpeg"
+              "image": "https://rajamanitransport.in/assets/rrr-logo.jpeg"
             },
             {
               "@type": "FAQPage",

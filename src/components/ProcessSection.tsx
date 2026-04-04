@@ -41,7 +41,7 @@ const ProcessSection = () => {
               transition={{ duration: 0.5, delay: i * 0.15 }}
               className="text-center relative"
             >
-              <div className="w-24 h-24 mx-auto rounded-2xl glass-panel flex items-center justify-center mb-6 relative z-10">
+              <div className="w-24 h-24 mx-auto rounded-2xl liquid-glass nm-convex flex items-center justify-center mb-6 relative z-10 transition-transform duration-500 hover:scale-110">
                 <step.icon size={32} className="text-primary" />
               </div>
               <span className="text-primary font-display font-bold text-sm">{step.step}</span>

@@ -56,7 +56,7 @@ const InternalLinks = ({ services, locations }: InternalLinksProps) => {
                 className="group flex items-center gap-2 text-primary font-bold mt-4 hover:underline"
               >
                 <ChevronRight size={14} className="text-primary group-hover:translate-x-1 transition-transform" />
-                Contact RRR Transport Chennai
+                Contact Rajamani Transport Chennai
               </Link>
             </div>
           </div>

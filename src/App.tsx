@@ -19,6 +19,18 @@ const Medavakkam = lazy(() => import("./pages/areas/Medavakkam.tsx"));
 const Tambaram = lazy(() => import("./pages/areas/Tambaram.tsx"));
 const Thoraipakkam = lazy(() => import("./pages/areas/Thoraipakkam.tsx"));
 const Sholinganallur = lazy(() => import("./pages/areas/Sholinganallur.tsx"));
+const Guindy = lazy(() => import("./pages/areas/Guindy.tsx"));
+const Pallikaranai = lazy(() => import("./pages/areas/Pallikaranai.tsx"));
+const Navalur = lazy(() => import("./pages/areas/Navalur.tsx"));
+const Siruseri = lazy(() => import("./pages/areas/Siruseri.tsx"));
+const Kelambakkam = lazy(() => import("./pages/areas/Kelambakkam.tsx"));
+const ECR = lazy(() => import("./pages/areas/ECR.tsx"));
+const Taramani = lazy(() => import("./pages/areas/Taramani.tsx"));
+const Chromepet = lazy(() => import("./pages/areas/Chromepet.tsx"));
+const Pallavaram = lazy(() => import("./pages/areas/Pallavaram.tsx"));
+const Madipakkam = lazy(() => import("./pages/areas/Madipakkam.tsx"));
+const Saidapet = lazy(() => import("./pages/areas/Saidapet.tsx"));
+const TNagar = lazy(() => import("./pages/areas/TNagar.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 
 const queryClient = new QueryClient();
@@ -50,6 +62,18 @@ const App = () => (
             <Route path="/debris-removal-tambaram" element={<Tambaram />} />
             <Route path="/debris-removal-thoraipakkam" element={<Thoraipakkam />} />
             <Route path="/debris-removal-sholinganallur" element={<Sholinganallur />} />
+            <Route path="/debris-removal-guindy" element={<Guindy />} />
+            <Route path="/debris-removal-pallikaranai" element={<Pallikaranai />} />
+            <Route path="/debris-removal-navalur" element={<Navalur />} />
+            <Route path="/debris-removal-siruseri" element={<Siruseri />} />
+            <Route path="/debris-removal-kelambakkam" element={<Kelambakkam />} />
+            <Route path="/debris-removal-ecr" element={<ECR />} />
+            <Route path="/debris-removal-taramani" element={<Taramani />} />
+            <Route path="/debris-removal-chromepet" element={<Chromepet />} />
+            <Route path="/debris-removal-pallavaram" element={<Pallavaram />} />
+            <Route path="/debris-removal-madipakkam" element={<Madipakkam />} />
+            <Route path="/debris-removal-saidapet" element={<Saidapet />} />
+            <Route path="/debris-removal-tnagar" element={<TNagar />} />
             
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
